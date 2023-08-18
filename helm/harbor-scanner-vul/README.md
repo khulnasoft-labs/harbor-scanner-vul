@@ -5,13 +5,13 @@ Vul as a plug-in vulnerability scanner in the Harbor registry.
 ## TL;DR;
 
 ```
-$ helm repo add aqua https://helm.khulnasoft.com
+$ helm repo add khulnasoft https://helm.khulnasoft.com
 ```
 
 ### Without TLS
 
 ```
-$ helm install harbor-scanner-vul aqua/harbor-scanner-vul \
+$ helm install harbor-scanner-vul khulnasoft/harbor-scanner-vul \
     --namespace harbor
 ```
 
@@ -28,7 +28,7 @@ $ helm install harbor-scanner-vul aqua/harbor-scanner-vul \
    ```
 2. Install the `harbor-scanner-vul` chart:
    ```
-   $ helm install harbor-scanner-vul aqua/harbor-scanner-vul \
+   $ helm install harbor-scanner-vul khulnasoft/harbor-scanner-vul \
        --namespace harbor \
        --set service.port=8443 \
        --set scanner.api.tlsEnabled=true \
@@ -51,7 +51,7 @@ This chart bootstraps a scanner adapter deployment on a [Kubernetes](http://kube
 To install the chart with the release name `my-release`:
 
 ```
-$ helm install my-release aqua/harbor-scanner-vul
+$ helm install my-release khulnasoft/harbor-scanner-vul
 ```
 
 The command deploys scanner adapter on the Kubernetes cluster in the default configuration. The [Parameters](#parameters)
@@ -121,7 +121,7 @@ The above parameters map to the env variables defined in [harbor-scanner-vul](ht
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
 
 ```
-$ helm install my-release aqua/harbor-scanner-vul \
+$ helm install my-release khulnasoft/harbor-scanner-vul \
     --namespace my-namespace \
     --set "service.port=9090" \
     --set "scanner.vul.vulnType=os\,library"

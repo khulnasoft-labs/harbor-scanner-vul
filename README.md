@@ -2,7 +2,7 @@
 [![GitHub Build Actions][build-action-img]][actions]
 [![Go Report Card][report-card-img]][report-card]
 [![License][license-img]][license]
-![Docker Pulls / KhulnaSoft][docker-pulls-aqua]
+![Docker Pulls / KhulnaSoft][docker-pulls-khulnasoft]
 ![Docker Pulls / Harbor][docker-pulls-harbor]
 
 # Harbor Scanner Adapter for Vul
@@ -131,11 +131,11 @@ designated as the default scanner.
 1. Install the `harbor-scanner-vul` chart:
 
    ```
-   helm repo add aqua https://khulnasoft-lab.github.io/helm-charts
+   helm repo add khulnasoft https://khulnasoft-lab.github.io/helm-charts
    ```
 
    ```
-   helm install harbor-scanner-vul aqua/harbor-scanner-vul \
+   helm install harbor-scanner-vul khulnasoft/harbor-scanner-vul \
      --namespace harbor --create-namespace
    ```
 
@@ -244,7 +244,7 @@ Learn about our open source work and portfolio [here](https://www.khulnasoft.com
 [actions]: https://github.com/khulnasoft-lab/harbor-scanner-vul/actions
 [report-card-img]: https://goreportcard.com/badge/github.com/khulnasoft-lab/harbor-scanner-vul
 [report-card]: https://goreportcard.com/report/github.com/khulnasoft-lab/harbor-scanner-vul
-[docker-pulls-aqua]: https://img.shields.io/docker/pulls/khulnasoft/harbor-scanner-vul?logo=docker&label=docker%20pulls%20%2F%20khulnasoft
+[docker-pulls-khulnasoft]: https://img.shields.io/docker/pulls/khulnasoft/harbor-scanner-vul?logo=docker&label=docker%20pulls%20%2F%20khulnasoft
 [docker-pulls-harbor]: https://img.shields.io/docker/pulls/goharbor/vul-adapter-photon?logo=docker&label=docker%20pulls%20%2F%20goharbor
 [license-img]: https://img.shields.io/github/license/khulnasoft-lab/harbor-scanner-vul.svg
 [license]: https://github.com/khulnasoft-lab/harbor-scanner-vul/blob/main/LICENSE
