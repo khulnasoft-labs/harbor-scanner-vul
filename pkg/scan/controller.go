@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/persistence"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/persistence"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/xerrors"
 )

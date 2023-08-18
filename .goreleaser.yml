@@ -30,7 +30,7 @@ changelog:
 dockers:
   - image_templates:
       - "docker.io/khulnasoft/harbor-scanner-vul:{{ .Version }}"
-      - "public.ecr.aws/khulnasoft-labs/harbor-scanner-vul:{{ .Version }}"
+      - "public.ecr.aws/khulnasoft-lab/harbor-scanner-vul:{{ .Version }}"
     ids:
       - scanner-vul
     build_flag_templates:
@@ -40,5 +40,5 @@ dockers:
       - "--label=org.label-schema.vendor=KhulnaSoft Security"
       - "--label=org.label-schema.version={{ .Version }}"
       - "--label=org.label-schema.build-date={{ .Date }}"
-      - "--label=org.label-schema.vcs=https://github.com/khulnasoft-labs/harbor-scanner-vul"
+      - "--label=org.label-schema.vcs=https://github.com/khulnasoft-lab/harbor-scanner-vul"
       - "--label=org.label-schema.vcs-ref={{ .FullCommit }}"

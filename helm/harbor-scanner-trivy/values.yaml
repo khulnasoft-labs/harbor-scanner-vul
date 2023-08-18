@@ -79,7 +79,7 @@ scanner:
     ## gitHubToken the GitHub access token to download Vul DB
     ##
     ## Vul DB contains vulnerability information from NVD, Red Hat, and many other upstream vulnerability databases.
-    ## It is downloaded by Vul from the GitHub release page https://github.com/khulnasoft-labs/vul-db/releases and cached
+    ## It is downloaded by Vul from the GitHub release page https://github.com/khulnasoft-lab/vul-db/releases and cached
     ## in the local file system (`/home/scanner/.cache/vul/db/vul.db`). In addition, the database contains the update
     ## timestamp so Vul can detect whether it should download a newer version from the Internet or use the cached one.
     ## Currently, the database is updated every 12 hours and published as a new release to GitHub.
@@ -94,7 +94,7 @@ scanner:
     gitHubToken: ""
     ## insecure the flag to skip verifying registry certificate
     insecure: false
-    # See https://github.com/khulnasoft-labs/vul#filter-the-vulnerabilities-by-open-policy-agent-policy for details
+    # See https://github.com/khulnasoft-lab/vul#filter-the-vulnerabilities-by-open-policy-agent-policy for details
     ignorePolicy: ""
     # ignorePolicy:  |
     #  package vul

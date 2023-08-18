@@ -81,28 +81,28 @@ The following matrix indicates the version of Vul and Vul adapter installed in e
 [harbor v2.1.6]: https://github.com/goharbor/harbor/releases/tag/v2.1.6
 [harbor v2.1.0]: https://github.com/goharbor/harbor/releases/tag/v2.1.0
 
-[vul v0.44.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.44.0
-[vul v0.43.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.43.0
-[vul v0.42.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.42.0
-[vul v0.40.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.40.0
-[vul v0.39.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.39.0
-[vul v0.38.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.38.2
-[vul v0.37.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.37.2
-[vul v0.35.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.35.0
-[vul v0.32.1]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.32.1
-[vul v0.29.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.29.2
-[vul v0.28.1]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.28.1
-[vul v0.26.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.26.0
-[vul v0.25.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.25.0
-[vul v0.24.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.24.2
-[vul v0.22.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.22.0
-[vul v0.20.1]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.20.1
-[vul v0.20.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.20.0
-[vul v0.19.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.19.2
-[vul v0.18.3]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.18.3
-[vul v0.17.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.17.2
-[vul v0.16.0]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.16.0
-[vul v0.9.2]: https://github.com/khulnasoft-labs/vul/releases/tag/v0.9.2
+[vul v0.44.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.44.0
+[vul v0.43.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.43.0
+[vul v0.42.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.42.0
+[vul v0.40.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.40.0
+[vul v0.39.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.39.0
+[vul v0.38.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.38.2
+[vul v0.37.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.37.2
+[vul v0.35.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.35.0
+[vul v0.32.1]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.32.1
+[vul v0.29.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.29.2
+[vul v0.28.1]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.28.1
+[vul v0.26.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.26.0
+[vul v0.25.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.25.0
+[vul v0.24.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.24.2
+[vul v0.22.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.22.0
+[vul v0.20.1]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.20.1
+[vul v0.20.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.20.0
+[vul v0.19.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.19.2
+[vul v0.18.3]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.18.3
+[vul v0.17.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.17.2
+[vul v0.16.0]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.16.0
+[vul v0.9.2]: https://github.com/khulnasoft-lab/vul/releases/tag/v0.9.2
 
 ## Deployment
 
@@ -131,7 +131,7 @@ designated as the default scanner.
 1. Install the `harbor-scanner-vul` chart:
 
    ```
-   helm repo add aqua https://khulnasoft-labs.github.io/helm-charts
+   helm repo add aqua https://khulnasoft-lab.github.io/helm-charts
    ```
 
    ```
@@ -203,7 +203,7 @@ Configuration of the adapter is done via environment variables at startup.
 If you set the value of the `SCANNER_VUL_SKIP_UPDATE` to `true`, make sure that you download the [Vul DB]
 and mount it in the `/home/scanner/.cache/vul/db/vul.db` path.
 
-### Error: failed to list releases: Get <https://api.github.com/repos/khulnasoft-labs/vul-db/releases>: dial tcp: lookup api.github.com on 127.0.0.11:53: read udp 127.0.0.1:39070->127.0.0.11:53: i/o timeout
+### Error: failed to list releases: Get <https://api.github.com/repos/khulnasoft-lab/vul-db/releases>: dial tcp: lookup api.github.com on 127.0.0.11:53: read udp 127.0.0.1:39070->127.0.0.11:53: i/o timeout
 
 Most likely it's a Docker DNS server or network firewall configuration issue. Vul requires internet connection to
 periodically download vulnerability database from GitHub to show up-to-date risks.
@@ -223,7 +223,7 @@ services:
 Alternatively, configure Docker daemon to use the same DNS server as host operating system. See [DNS services][docker-dns]
 section in the Docker container networking documentation for more details.
 
-### Error: failed to list releases: GET <https://api.github.com/repos/khulnasoft-labs/vul-db/releases>: 403 API rate limit exceeded
+### Error: failed to list releases: GET <https://api.github.com/repos/khulnasoft-lab/vul-db/releases>: 403 API rate limit exceeded
 
 Vul DB downloads from GitHub are subject to [rate limiting][gh-rate-limit]. Make sure that the Vul DB is mounted
 and cached in the `/home/scanner/.cache/vul/db/vul.db` path. If, for any reason, it's not enough you can set the
@@ -238,21 +238,21 @@ requests.
 Harbor Scanner Adapter for Vul is an [KhulnaSoft Security](https://khulnasoft.com) open source project.  
 Learn about our open source work and portfolio [here](https://www.khulnasoft.com/products/open-source-projects/).
 
-[release-img]: https://img.shields.io/github/release/khulnasoft-labs/harbor-scanner-vul.svg?logo=github
-[release]: https://github.com/khulnasoft-labs/harbor-scanner-vul/releases
-[build-action-img]: https://github.com/khulnasoft-labs/harbor-scanner-vul/workflows/build/badge.svg
-[actions]: https://github.com/khulnasoft-labs/harbor-scanner-vul/actions
-[report-card-img]: https://goreportcard.com/badge/github.com/khulnasoft-labs/harbor-scanner-vul
-[report-card]: https://goreportcard.com/report/github.com/khulnasoft-labs/harbor-scanner-vul
+[release-img]: https://img.shields.io/github/release/khulnasoft-lab/harbor-scanner-vul.svg?logo=github
+[release]: https://github.com/khulnasoft-lab/harbor-scanner-vul/releases
+[build-action-img]: https://github.com/khulnasoft-lab/harbor-scanner-vul/workflows/build/badge.svg
+[actions]: https://github.com/khulnasoft-lab/harbor-scanner-vul/actions
+[report-card-img]: https://goreportcard.com/badge/github.com/khulnasoft-lab/harbor-scanner-vul
+[report-card]: https://goreportcard.com/report/github.com/khulnasoft-lab/harbor-scanner-vul
 [docker-pulls-aqua]: https://img.shields.io/docker/pulls/khulnasoft/harbor-scanner-vul?logo=docker&label=docker%20pulls%20%2F%20khulnasoft
 [docker-pulls-harbor]: https://img.shields.io/docker/pulls/goharbor/vul-adapter-photon?logo=docker&label=docker%20pulls%20%2F%20goharbor
-[license-img]: https://img.shields.io/github/license/khulnasoft-labs/harbor-scanner-vul.svg
-[license]: https://github.com/khulnasoft-labs/harbor-scanner-vul/blob/main/LICENSE
+[license-img]: https://img.shields.io/github/license/khulnasoft-lab/harbor-scanner-vul.svg
+[license]: https://github.com/khulnasoft-lab/harbor-scanner-vul/blob/main/LICENSE
 
 [Harbor]: https://github.com/goharbor/harbor
 [Harbor Helm chart]: https://github.com/goharbor/harbor-helm
-[Vul]: https://github.com/khulnasoft-labs/vul
-[Vul DB]: https://github.com/khulnasoft-labs/vul-db
+[Vul]: https://github.com/khulnasoft-lab/vul
+[Vul DB]: https://github.com/khulnasoft-lab/vul-db
 [harbor-pluggable-scanners]: https://github.com/goharbor/community/blob/master/proposals/pluggable-image-vulnerability-scanning_proposal.md
-[gh-rate-limit]: https://github.com/khulnasoft-labs/vul#github-rate-limiting
+[gh-rate-limit]: https://github.com/khulnasoft-lab/vul#github-rate-limiting
 [docker-dns]: https://docs.docker.com/config/containers/container-networking/#dns-services

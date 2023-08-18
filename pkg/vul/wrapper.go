@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/ext"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/ext"
 	log "github.com/sirupsen/logrus"
 )
 

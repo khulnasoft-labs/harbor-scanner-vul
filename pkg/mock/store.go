@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
 	"github.com/stretchr/testify/mock"
 )
 

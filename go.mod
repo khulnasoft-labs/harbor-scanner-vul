@@ -1,4 +1,4 @@
-module github.com/khulnasoft-labs/harbor-scanner-vul
+module github.com/khulnasoft-lab/harbor-scanner-vul
 
 go 1.20
 

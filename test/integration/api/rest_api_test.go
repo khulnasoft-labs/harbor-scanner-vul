@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	v1 "github.com/khulnasoft-labs/harbor-scanner-vul/pkg/http/api/v1"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/mock"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	v1 "github.com/khulnasoft-lab/harbor-scanner-vul/pkg/http/api/v1"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/mock"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -211,7 +211,7 @@ func TestRestApi(t *testing.T) {
     "org.label-schema.version": "1.0",
     "org.label-schema.build-date": "2019-01-04T12:40",
     "org.label-schema.vcs-ref": "abc",
-    "org.label-schema.vcs": "https://github.com/khulnasoft-labs/harbor-scanner-vul",
+    "org.label-schema.vcs": "https://github.com/khulnasoft-lab/harbor-scanner-vul",
     "env.SCANNER_VUL_SKIP_UPDATE": "false",
     "env.SCANNER_VUL_OFFLINE_SCAN": "false",
     "env.SCANNER_VUL_IGNORE_UNFIXED": "true",

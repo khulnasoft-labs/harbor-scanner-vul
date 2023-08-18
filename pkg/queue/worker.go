@@ -7,9 +7,9 @@ import (
 	"github.com/gomodule/redigo/redis"
 
 	"github.com/gocraft/work"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/scan"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/scan"
 	log "github.com/sirupsen/logrus"
 )
 

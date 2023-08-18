@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/http/api"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/mock"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/http/api"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/mock"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -479,7 +479,7 @@ func TestRequestHandler_GetMetadata(t *testing.T) {
       "harbor.scanner-adapter/vulnerability-database-next-update-at": "2020-03-18T05:00:44Z",
       "harbor.scanner-adapter/vulnerability-database-updated-at": "2020-03-18T07:47:24Z",
       "org.label-schema.build-date": "2019-01-03T13:40",
-      "org.label-schema.vcs": "https://github.com/khulnasoft-labs/harbor-scanner-vul",
+      "org.label-schema.vcs": "https://github.com/khulnasoft-lab/harbor-scanner-vul",
       "org.label-schema.vcs-ref": "abc",
       "org.label-schema.version": "0.1",
       "env.SCANNER_VUL_SKIP_UPDATE": "false",
@@ -531,7 +531,7 @@ func TestRequestHandler_GetMetadata(t *testing.T) {
    "properties":{
       "harbor.scanner-adapter/scanner-type": "os-package-vulnerability",
       "org.label-schema.build-date": "2019-01-03T13:40",
-      "org.label-schema.vcs": "https://github.com/khulnasoft-labs/harbor-scanner-vul",
+      "org.label-schema.vcs": "https://github.com/khulnasoft-lab/harbor-scanner-vul",
       "org.label-schema.vcs-ref": "abc",
       "org.label-schema.version": "0.1",
       "env.SCANNER_VUL_SKIP_UPDATE": "false",
@@ -580,7 +580,7 @@ func TestRequestHandler_GetMetadata(t *testing.T) {
    "properties":{
       "harbor.scanner-adapter/scanner-type": "os-package-vulnerability",
       "org.label-schema.build-date": "2019-01-03T13:40",
-      "org.label-schema.vcs": "https://github.com/khulnasoft-labs/harbor-scanner-vul",
+      "org.label-schema.vcs": "https://github.com/khulnasoft-lab/harbor-scanner-vul",
       "org.label-schema.vcs-ref": "abc",
       "org.label-schema.version": "0.1",
       "env.SCANNER_VUL_SKIP_UPDATE": "false",

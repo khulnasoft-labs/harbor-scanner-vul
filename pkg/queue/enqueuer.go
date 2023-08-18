@@ -6,10 +6,10 @@ import (
 
 	"github.com/gocraft/work"
 	"github.com/gomodule/redigo/redis"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/persistence"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/persistence"
 	log "github.com/sirupsen/logrus"
 )
 

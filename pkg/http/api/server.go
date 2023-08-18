@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

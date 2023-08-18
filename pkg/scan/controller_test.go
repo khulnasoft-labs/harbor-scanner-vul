@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/mock"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/mock"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/xerrors"
 )

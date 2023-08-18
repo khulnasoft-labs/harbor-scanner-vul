@@ -24,8 +24,8 @@ This document is intended for maintainers only.
    $ git remote -v
    origin    git@github.com:<YOUR_GITHUB_USERNAME>/harbor-scanner-vul.git (fetch)
    origin    git@github.com:<YOUR_GITHUB_USERNAME>/harbor-scanner-vul.git (push)
-   upstream  git@github.com:khulnasoft-labs/harbor-scanner-vul.git (fetch)
-   upstream  git@github.com:khulnasoft-labs/harbor-scanner-vul.git (push)
+   upstream  git@github.com:khulnasoft-lab/harbor-scanner-vul.git (fetch)
+   upstream  git@github.com:khulnasoft-lab/harbor-scanner-vul.git (push)
    ```
 3. Docker client connected to a Docker host:
    ```
@@ -80,5 +80,5 @@ These can be stored as secrets in GitHub repository settings.
 
 ## Release artifacts
 
-1. Make sure that GoReleaser uploaded artifacts to GitHub [releases](https://github.com/khulnasoft-labs/harbor-scanner-vul/releases) page.
+1. Make sure that GoReleaser uploaded artifacts to GitHub [releases](https://github.com/khulnasoft-lab/harbor-scanner-vul/releases) page.
 2. Make sure that GoReleaser pushed new tag `NEW_VERSION` to Docker Hub [repository](https://hub.docker.com/r/khulnasoft/harbor-scanner-vul/tags).

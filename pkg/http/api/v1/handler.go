@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/etc"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/http/api"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/job"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/persistence"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/queue"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/etc"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/http/api"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/job"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/persistence"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/queue"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
 )
@@ -217,7 +217,7 @@ func (h *requestHandler) GetMetadata(res http.ResponseWriter, _ *http.Request) {
 		"org.label-schema.version":    h.info.Version,
 		"org.label-schema.build-date": h.info.Date,
 		"org.label-schema.vcs-ref":    h.info.Commit,
-		"org.label-schema.vcs":        "https://github.com/khulnasoft-labs/harbor-scanner-vul",
+		"org.label-schema.vcs":        "https://github.com/khulnasoft-lab/harbor-scanner-vul",
 
 		"env.SCANNER_VUL_SKIP_UPDATE":     strconv.FormatBool(h.config.Vul.SkipUpdate),
 		"env.SCANNER_VUL_OFFLINE_SCAN":    strconv.FormatBool(h.config.Vul.OfflineScan),

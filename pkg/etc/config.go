@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/caarlos0/env/v6"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
 	"github.com/sirupsen/logrus"
 )
 

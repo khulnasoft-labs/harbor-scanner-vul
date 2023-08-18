@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/vul"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/vul"
 )
 
 // Expectation represents an expectation of a method being called and its return values.

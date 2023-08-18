@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
 	log "github.com/sirupsen/logrus"
 )
 

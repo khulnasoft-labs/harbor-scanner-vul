@@ -116,7 +116,7 @@ The following table lists the configurable parameters of the scanner adapter cha
 | `httpsProxy`                          | The URL of the HTTPS proxy server                                                                                                                                                                                                                                                  |                                    |
 | `noProxy`                             | The URLs that the proxy settings do not apply to                                                                                                                                                                                                                                   |                                    |
 
-The above parameters map to the env variables defined in [harbor-scanner-vul](https://github.com/khulnasoft-labs/harbor-scanner-vul#configuration).
+The above parameters map to the env variables defined in [harbor-scanner-vul](https://github.com/khulnasoft-lab/harbor-scanner-vul#configuration).
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
 

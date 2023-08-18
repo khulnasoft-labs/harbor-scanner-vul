@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/test/component/docker"
-	"github.com/khulnasoft-labs/harbor-scanner-vul/test/component/scanner"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/test/component/docker"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/test/component/scanner"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	tc "github.com/testcontainers/testcontainers-go"

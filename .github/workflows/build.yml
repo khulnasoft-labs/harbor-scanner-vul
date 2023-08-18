@@ -53,7 +53,7 @@ jobs:
           version: v1.9.2
           args: release --snapshot --skip-publish --rm-dist
       - name: Scan image for vulnerabilities
-        uses: khulnasoft-labs/vul-action@master
+        uses: khulnasoft-lab/vul-action@master
         with:
           image-ref: "docker.io/khulnasoft/harbor-scanner-vul:${{ github.sha }}"
           severity: "CRITICAL"

@@ -22,7 +22,7 @@
 2. Install Docker, Docker Compose, and Make.
 3. Get the source code.
    ```
-   git clone https://github.com/khulnasoft-labs/harbor-scanner-vul.git
+   git clone https://github.com/khulnasoft-lab/harbor-scanner-vul.git
    cd harbor-scanner-vul
    ```
 
@@ -30,7 +30,7 @@
 
 1. Get the source code.
    ```
-   git clone https://github.com/khulnasoft-labs/harbor-scanner-vul.git
+   git clone https://github.com/khulnasoft-lab/harbor-scanner-vul.git
    cd harbor-scanner-vul
    ```
 2. Create and configure a guest development machine, which is based on Ubuntu 20.4 LTS and has Go, Docker, Docker Compose,

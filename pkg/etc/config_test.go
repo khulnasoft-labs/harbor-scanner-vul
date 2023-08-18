@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

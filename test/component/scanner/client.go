@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-labs/harbor-scanner-vul/pkg/harbor"
+	"github.com/khulnasoft-lab/harbor-scanner-vul/pkg/harbor"
 )
 
 // Client is the API client that performs all operations against a Scanner Adapter.
